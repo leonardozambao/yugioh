@@ -18,8 +18,18 @@
         <div class="container">
             <section class="">
                 <div class="hold_busca">
-                    <input type="text" id="busca" v-model="cardName" class='field' v-on:keyup.enter="getCards()" placeholder="Digite o nome da carta para buscar">
+                    <input type="text" id="busca" v-model="cardName" class='field' list="sugestoes" v-on:keyup.enter="getCards()" placeholder="Digite o nome da carta para buscar">
                     <button v-on:click="getCards()" title="Buscar">OK</button>
+                    <datalist id="sugestoes">
+                        <option value="Summoned Skull"></option>
+                        <option value="Dark Magician"></option>
+                        <option value="Dark Hole"></option>
+                        <option value="Blue-Eyes White Dragon"></option>
+                        <option value="El Shaddoll Construct"></option>
+                        <option value="Michion, the Timelord"></option>
+                        <option value="Raigeki"></option>
+                        <option value="Mirror Force"></option>
+                    </datalist>
                 </div>
                 <article class="card" v-if="busca">
                     <figure>
