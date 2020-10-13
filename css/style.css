@@ -1,0 +1,86 @@
+#app {
+  background-color: #f9fafa;
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+
+.hold_busca {
+  position: relative;
+  display: table;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 3rem;
+}
+
+.hold_busca .field {
+  border: solid 1px #c6c6c6;
+  height: 30px;
+  width: 100%;
+  max-width: 300px;
+  padding-left: 1rem;
+}
+
+.hold_busca button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  border: solid 1px #c6c6c6;
+}
+
+.card {
+  border: solid 1px #c6c6c6;
+  border-radius: 9px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.card_content {
+  padding: 1.5rem 2rem;
+}
+
+.card_thumb {
+  width: 100%;
+}
+
+.card_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card_desc {
+  white-space: break-spaces;
+  margin-bottom: 1rem;
+}
+
+.card_price {
+  color: green;
+  font-size: 2rem;
+}
+
+.card .atack,
+.card .def {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: green;
+}
+
+.card .def {
+  margin-left: 0.5rem;
+  color: blue;
+}
+
+.card_set {
+  list-style-type: disc;
+}
+
+.card_set li {
+  margin-top: 1rem;
+}
+
+.card_set_name {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+/*# sourceMappingURL=style.css.map */
